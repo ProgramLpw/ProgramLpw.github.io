@@ -110,7 +110,7 @@ export default <UserPlugins>[
                 loop: 'none',          // 设置播放器的初始循环模式 'all' | 'one' | 'none'
                 order: 'list',         // 设置播放器的初始顺序模式 'list' | 'random'
                 preload: 'auto',       // 设置音频的预加载模式 'none' | 'metadata' | 'auto'
-                volume: 0.7,           // 设置播放器的音量
+                volume: 0.3,           // 设置播放器的音量
                 mutex: true,           // 是否开启互斥模式
                 lrcType: 3,            // 设置 lrc 歌词解析模式 （0：禁用 lrc 歌词，1：lrc 格式的字符串，3：lrc 文件 url）
             },

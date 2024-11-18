@@ -3,25 +3,29 @@ export default [
 
     { text: '导航', link: '/navigation/' },
 
-    { text: '开发', link: '/develop/',
-        items: [
-        {
-            text: '前端',
-            items: [],
-        },
-        {
-            text: '后端',
-            items: [],
-        },
-        ],
-    },
+    // { text: '开发', link: '/develop/',
+    //     items: [
+    //         { text: '前端', },
+    //         { text: '后端', },
+    //     ],
+    // },
 
-    { text: '运维', link: '/devops/',
-        items: [],
-    },
+    // { text: '运维', link: '/devops/',
+    //     items: [
+    //         { text: '数据库',},
+    //         { text: 'Linux',},
+    //     ],
+    // },
 
     { text: '技术', link: '/technology/',
-        items: [],
+        items: [
+            { text: '区块链',
+                items: [
+                    { text: 'Solidity', link: '/blockchain/solidity/' },
+                    { text: '智能合约', link: '/blockchain/smartContracts/' }
+                ]
+            },
+        ],
     },
 
     { text: '更多',
